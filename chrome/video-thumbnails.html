@@ -1,0 +1,27 @@
+<html><head>
+<script>
+
+function selectedTab(tab) {
+  var detailsObj = new Object();
+  detailsObj.file = "video-thumbnails.js";
+  chrome.tabs.executeScript(tab.id, detailsObj, function(){});
+}
+
+function onUpdatedTab(tabid, objectinfo, tab) {
+  var targettab = tab;
+
+  // Only allow on Tumblr, enforcing in JavaScript
+  if (!tab.url.match(/^(http|https)\:\/\/(www\.)?tumblr\.com\/(dashboard|tumblelog)(.*)$/im)) return;
+  setTimeout(function() { selectedTab(tab);}, 1000); 
+}
+
+function pageOnClicked(tab) {
+  var detailsObj = new Object();
+  detailsObj.file = "checktabs.js";
+  chrome.tabs.executeScript(tab.id, detailsObj, function(){});
+}
+
+chrome.tabs.onUpdated.addListener(onUpdatedTab);
+
+</script>
+</head><body></body></html>
