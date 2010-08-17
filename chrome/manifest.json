@@ -15,6 +15,6 @@
    },
    "name": "Video thumbnails for Tumblr",
    "permissions": [ "tabs", "http://www.tumblr.com/*", "https://www.tumblr.com/*", "http://tumblr.com/*", "https://tumblr.com/*" ],
-   "update_url": "http://assets.gleuch.com/extensions/updates?browser=chrome&id=<id>&v=<version>",
+   "update_url": "http://addons.gleuch.com/tumblr-video-thumbnails/updates/chrome",
    "version": "0.1"
 }
