@@ -3,18 +3,18 @@
    "content_scripts": [ {
       "all_frames": true,
       "js": [ "jquery-latest.js" ],
-      "matches": [ "http://*/*" ],
+      "matches": [ "http://www.tumblr.com/*", "https://www.tumblr.com/*", "http://tumblr.com/*", "https://tumblr.com/*" ],
       "run_at": "document_start"
    } ],
-   "description": "View video thumbnails in your Tumblr dashboard.",
+   "description": "View video thumbnails in your Tumblr dashboard. Developed by the fine folks at Rocketboom and Magma.",
    "icons": {
-      // "16": "video-thumbnails16.png",
-      // "32": "video-thumbnails32.png",
-      // "48": "video-thumbnails48.png",
-      // "64": "video-thumbnails64.png"
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "64": "icon64.png"
    },
    "name": "Video thumbnails for Tumblr",
    "permissions": [ "tabs", "http://www.tumblr.com/*", "https://www.tumblr.com/*", "http://tumblr.com/*", "https://tumblr.com/*" ],
    "update_url": "http://addons.gleuch.com/tumblr-video-thumbnails/updates/chrome",
-   "version": "0.1"
+   "version": "1.0.0"
 }
