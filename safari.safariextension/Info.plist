@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Rocketboom R&amp;D</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tumblr Video Thumbnails</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rocketboomdev.tumblr-video-thumbnails</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>video-thumbnails.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>video-thumbnails.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.tumblr.com/*</string>
+			<string>https://*.tumblr.com/*</string>
+			<string>http://tumblr.com/*</string>
+			<string>https://tumblr.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>View video thumbnails in your Tumblr dashboard. Developed by the fine folks at Rocketboom and Magma.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://addons.gleuch.com/tumblr-video-thumbnails/updates/safari</string>
+	<key>Website</key>
+	<string>http://dev.rocketboom.com</string>
+</dict>
+</plist>
