@@ -27,6 +27,4 @@ Props to [Greg Leuch](http://gleu.ch) for working out this app. And big thanks t
 
 Special thanks to the teams at [Blip.tv](http://blip.tv), [Vimeo](http://vimeo.com), and [Wreck & Salvage](http://wreckandsalvage.com) for their help in testing the add-ons.
 
-More information about Rocketboom R&D can be found on:
-* [http://dev.rocketboom.com](http://dev.rocketboom.com)
-* [http://twitter.com/RocketboomDev](http://twitter.com/RocketboomDev "RocketboomDev")
+More information about Rocketboom R&D can be found at [http://dev.rocketboom.com](http://dev.rocketboom.com) or on [Twitter](http://twitter.com/RocketboomDev "@RocketboomDev").
