@@ -13,8 +13,8 @@
       "48": "icon48.png",
       "64": "icon64.png"
    },
-   "name": "Video thumbnails for Tumblr",
-   "permissions": [ "tabs", "http://www.tumblr.com/*", "https://www.tumblr.com/*", "http://tumblr.com/*", "https://tumblr.com/*" ],
+   "name": "Tumblr Video Thumbnails",
+   "permissions": [ "tabs", "http://*.tumblr.com/*", "https://*.tumblr.com/*", "http://tumblr.com/*", "https://tumblr.com/*" ],
    "update_url": "http://addons.gleuch.com/tumblr-video-thumbnails/updates/chrome",
-   "version": "1.0.0"
+   "version": "1.0.1"
 }

@@ -4,8 +4,8 @@
   Developed for Rocketboom R&D by Greg Leuch <http://dev.rocketboom.com>
   With help from the fantastic Magma API! <http://docs.mag.ma/>
 
-  Version:  1.0.0
-  Packaged: 2010-08-19
+  Version:  1.0.1
+  Packaged: 2010-08-30
 
   ############################################################################################-
 
@@ -114,5 +114,4 @@ try {
     videothumbs_init(jQuery);
   }
 } catch(err) {
-  alert(err);
 }
