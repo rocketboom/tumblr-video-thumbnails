@@ -110,7 +110,16 @@ namespace :build do
   task :safari do
     puts "Building Safari add-on..."
     puts "\n  SAFARI EXTENSION MUST BE BUILT USING SAFARI'S EXTENION MANAGER!\n  (Blame them for making this process as complex as installing Windows.)\n\n"
-    puts ("-"*85) + ("\n"*3)
+    puts ("-"*85) + ("\n"*2)
+    if File.exists?("#{APP_ROOT}/safari.safariextz")
+      app_filepath = "#{APP_EXTENSION_FOLDER}/safari/#{APP_FILENAME}_#{APP_VERSION}.safariextz"
+      # Ensure folder path exists....
+      sh "mkdir -p #{File.dirname(app_filepath)} > /dev/null 2>&1"
+
+      sh "mv -f #{APP_ROOT}/safari.safariextz #{app_filepath}"
+      puts "Moved Safari build into extension folder. (#{app_filepath})"
+    end
+    puts "\n"
   end
 end
 
