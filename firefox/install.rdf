@@ -8,14 +8,15 @@
                    em:maxVersion="4.0b2" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="dev_tvt@rocketboom.com"
-                   em:name="Video thumbnails for Tumblr"
-                   em:creator="Rocketboom Dev"
+                   em:name="Tumblr Video Thumbnails"
+                   em:creator="Rocketboom R&amp;D"
                    em:contributor="Greg Leuch"
                    em:description="View video thumbnails in your Tumblr dashboard. Developed by the fine folks at Rocketboom and Magma."
                    em:homepageURL="http://dev.rocketboom.com"
-                   em:version="1.0.0"
+                   em:version="1.0.1"
                    em:type="2"
                    em:updateURL="http://addons.gleuch.com/tumblr-video-thumbnails/updates/firefox"
+                   em:updateInfoURL="http://addons.gleuch.com/tumblr-video-thumbnails/updates/firefox/info"
                    em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYlylFz3lj28czKItSXTEWRBrVj7VcvbI7IePbJuF06FJbC8qNDwF8aYjUNLEFxhtN3UlmfXQtTDTZg2LC4xtrSMRdfwRWznmzJ6Q5VIvGrw1DJ5DZeZQQZ5btjUlMr4+U4JH38xBzjJR1Z4TvZt7c78Lt/XvvQtIME0DDOYhFFwIDAQAB">
     <em:targetApplication RDF:resource="rdf:#$pa1C92"/>
   </RDF:Description>

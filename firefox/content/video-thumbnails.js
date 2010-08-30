@@ -4,8 +4,8 @@
   Developed for Rocketboom R&D by Greg Leuch <http://dev.rocketboom.com>
   With help from the fantastic Magma API! <http://docs.mag.ma/>
 
-  Version:  1.0.0
-  Packaged: 2010-08-19
+  Version:  1.0.1
+  Packaged: 2010-08-30
 
   ############################################################################################-
 
@@ -13,6 +13,8 @@
 
 */
 
+
+try {
 
 
 /* JQUERY */
@@ -4492,12 +4494,12 @@ function videothumbs_init($_) {
   setInterval($_.videothumbs.reprocess, 1000);
 }
 
-/* Let start blocking those exes */
-try {
-  if (location.href.match(/^(http|https)\:\/\/(www\.)?tumblr\.com\/(dashboard|tumblelog)(.*)$/im) && !jQuery('body').hasClass('videothumbd')) {
-    jQuery('body').addClass('videothumbd')
-    videothumbs_init(jQuery);
+
+  if (location.href.match(/^(http|https)\:\/\/(www\.)?tumblr\.com\/(dashboard|tumblelog)(.*)$/im)) {
+    if (!jQuery('body').hasClass('videothumbd')) {
+      jQuery('body').addClass('videothumbd');
+      videothumbs_init(jQuery);
+    }
   }
 } catch(err) {
-  alert(err);
 }
